@@ -1,0 +1,202 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Header Styling */
+.nyt-header {
+    font-family: 'UnifrakturMaguntia', Georgia, serif; /* Blackletter-style font */
+    font-size: 42px; /* Adjust font size for a bold header */
+    font-weight: normal; /* No extra boldness needed */
+    text-align: center; /* Center align the text */
+    padding: 10px;
+    background-color: #f5f5f5; /* Optional: Light gray background for distinction */
+    color: black; /* Keep the text color black */
+    border-bottom: 2px solid #ccc; /* Optional: Add a subtle border below the header */
+    letter-spacing: 1px; /* Slight spacing for better readability */
+}
+
+/* Info Strip Styling */
+.info-strip {
+    display: flex; /* Arrange items in a row */
+    justify-content: space-between; /* Distribute space evenly */
+    align-items: center; /* Center items vertically */
+    font-family: Georgia, serif; /* Use a simple serif font */
+    font-size: 14px; /* Adjust text size */
+    padding: 5px 15px; /* Add padding for spacing */
+    background-color: #f5f5f5; /* Light gray background color */
+    border-bottom: 2px solid #ccc; /* Add a subtle border at the bottom */
+    color: black; /* Text color */
+}
+
+/* Link Styling in Info Strip */
+.info-link {
+    color: #d64000; /* Red color for the link */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold for emphasis */
+}
+
+.info-link:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Article Header */
+/* Article Header (Date and Volume Info) */
+.article-header {
+    font-family: Georgia, serif; /* Use a simple serif font here */
+    text-align: center;
+    font-size: 20px;
+    margin: 10px 0;
+    color: #555;
+}
+
+/* Article Text */
+.left-column, .right-column {
+    font-family: Georgia, serif; /* Traditional serif font for readability */
+    line-height: 1.8;
+}
+
+
+/* Main Content Layout */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Left Column Styling */
+.left-column {
+    flex: 2;
+    line-height: 1.8;
+}
+
+/* Right Column Styling */
+.right-column {
+    flex: 1;
+}
+
+/* Chatbot Section Styling */
+.chatbot-container {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Chat Display */
+.chat-display {
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/* Chat Input Styling */
+.input-container {
+    display: flex;
+    gap: 15px;
+}
+
+#user-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#send-btn {
+    padding: 10px;
+    border: none;
+    background-color: #555;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#send-btn:hover {
+    background-color: #777;
+}
+
+/* Image Box Styling */
+.image-box {
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.center-image {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Footer Section */
+.article-footer {
+    padding: 30px;
+    padding-left: 359px;
+    max-width: 500px;
+    background-color: #ffffff;
+    border-top: 1px solid #ffffff;
+    text-align: left;
+    line-height: 25px;
+}
+
+.second-paragraph-image {
+    max-width: 100%; /* Ensures the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin: 50px; /* Add spacing above and below the image */
+    margin-left: 600px;
+    display: block; /* Ensures it doesn’t flow next to text */
+    border: 2px solid #ccc; /* Optional: Adds a border around the image */
+    border-radius: 10px; /* Optional: Slightly round the corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */  
+    position: relative;
+    top: -540px; /* Move the image 20px upward */
+    margin-bottom: -500px; /* Optional: Adjust bottom margin if needed */
+
+}
+
+
+
+hr {
+    border: none;
+    border-top: 2px solid #ccc;
+    margin: 20px auto; /* Center the line */
+    width: 100%; /* Set the desired width */
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.custom-button {
+    background-color: #00b7ff; /* Blue button */
+    color: rgb(255, 255, 255);
+    border: #000000;
+    border-width: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+    border: 2.5px solid black; 
+    border-color: black;
+}
+
+.custom-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    border-color: black;
+}
